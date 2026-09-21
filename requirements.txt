@@ -1,0 +1,10 @@
+pymupdf==1.28.2
+jupyter==1.1.1
+langchain-text-splitters
+tiktoken
+python-dotenv==1.2.3
+pandas
+openai
+azure-search-documents 
+azure-core
+streamlit

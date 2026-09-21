@@ -1,0 +1,18 @@
+{
+  "experiment_id": "baseline_v1",
+  "description": "Initial dense-retrieval RAG benchmark before retrieval or parsing improvements.",
+  "parser": "pymupdf",
+  "chunk_size_tokens": 1000,
+  "chunk_overlap_tokens": 150,
+  "min_chunk_tokens": 50,
+  "embedding_provider": "azure_openai",
+  "embedding_dimension": 3072,
+  "vector_store": "azure_ai_search",
+  "retrieval_strategy": "dense",
+  "top_k": 5,
+  "hybrid_search": false,
+  "reranker": false,
+  "metadata_filtering": false,
+  "table_aware_parsing": false,
+  "conversation_memory": false
+}
